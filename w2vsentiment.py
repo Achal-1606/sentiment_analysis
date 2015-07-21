@@ -27,4 +27,4 @@ if __name__ == '__main__':
     for doc in documents:
         ratios.append(w2vsentiment(w2v, doc))
 
-    utils.output_csv("tweet_output.csv", ratios)
+    utils.output_csv(sys.argv[2], ratios)

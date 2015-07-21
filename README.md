@@ -7,5 +7,5 @@ Sentiment Analysis (mainly Tweets) with Word2Vec. Analyzing texts according to P
 
 ## Usage
 ```
-$ python w2vsentiment.py [TestData]
+$ python w2vsentiment.py [TestData] [Output]
 ```
